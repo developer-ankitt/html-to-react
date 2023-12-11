@@ -275,7 +275,7 @@ nav .navbar a:hover{
   display:block;
   width:100%;
   height:69px;
-  background-image:url(..\public\media\images\shadow.svg);
+  /* background-image:url(..\media\images\shadow.svg); */
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -292,7 +292,7 @@ nav .navbar a:hover{
   display:block;
   width:100%;
   height:69px;
-  background-image:url(..\public\media\images\shadow-sm.svg);
+  /* background-image:url(..\public\media\images\shadow-sm.svg); */
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -307,7 +307,7 @@ nav .navbar a:hover{
 }
 header.hero{
   height:600px;
-  background-image:url(..\public\media\images\hero.png);
+  /* background-image:url(..\public\media\images\hero.png); */
   background-position: 0% 0%;
   background-repeat: no-repeat;
   overflow:hidden;
@@ -404,7 +404,7 @@ section.top-products{
   display:block;
   width: 100%;
   height:30px;
-  background-image:url(..\public\media\images\hr.svg);
+  /* background-image:url(..\public\media\images\hr.svg); */
   background-repeat: no-repeat;
   background-position: center;
   position:absolute;
@@ -589,7 +589,8 @@ section.big-deal {
   background: linear-gradient(
       rgba(35,43,56,0.9),
       rgba(35,43,56,0.9)
-  ), url(..\public\media\images\food-table.jpg);
+  ), ;
+  /* url(..\public\media\images\food-table.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

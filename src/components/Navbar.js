@@ -6,16 +6,21 @@ import { Link } from "react-router-dom"
 const Navbar = (props) => {
     return (
         <>
+
+        {/* <div>
+            <img src="../media/images/jars.jpg" alt="jars" />
+        </div> */}
+
             {/* <div> */}
             <div className="contact flex items-center">
-                <img src="public\media\icons\phone.svg" alt="" />
+                <img src="..\media\icons\phone.svg" alt="" />
                 <div>
                     <h5>Call us: (+84) 123 456 789</h5>
                     <h6>E-mail : support@freshmeal.com</h6>
                 </div>
             </div>
             <div className="time flex items-center">
-                <img src="public\media\icons\clock.svg" alt="" />
+                <img src="..\media\icons\clock.svg" alt="" />
                 <div>
                     <h5>Working Hours:</h5>
                     <h6>Mon - Sat (8.00am - 12.00am)</h6>
@@ -34,25 +39,25 @@ const Navbar = (props) => {
             <header className="topbar">
                 <div className="container flex justify-between items-center">
                     <div className="icons">
-                        <Link to="/"><img src="public\media\icons\facebook.svg" alt="" /></Link>
-                        <Link to="/"><img src="public\media\icons\twitter.svg" alt="" /></Link>
-                        <Link to="/"><img src="public\media\icons\google.svg" alt="" /></Link>
-                        <Link to="/"><img src="public\media\icons\instagram.svg" alt="" /></Link>
-                        <Link to="/"><img src="public\media\icons\search.svg" alt="" /></Link>
+                        <Link to="/"><img src="..\media\icons\facebook.svg" alt="" /></Link>
+                        <Link to="/"><img src="..\media\icons\twitter.svg" alt="" /></Link>
+                        <Link to="/"><img src="..\media\icons\google.svg" alt="" /></Link>
+                        <Link to="/"><img src="..\media\icons\instagram.svg" alt="" /></Link>
+                        <Link to="/"><img src="..\media\icons\search.svg" alt="" /></Link>
                     </div>
                     <div className="auth flex items-center">
                         <div>
-                            <img src="public\media\icons\user-icon.svg" alt="" />
+                            <img src="..\media\icons\user-icon.svg" alt="" />
                             <Link to="/">Log in</Link>
                         </div>
                         <span className="divider">|</span>
                         <div>
-                            <img src="public\media\icons\edit.svg" alt="" />
+                            <img src="..\media\icons\edit.svg" alt="" />
                             <Link to="/">Register Now</Link>
                         </div>
                         <span className="divider">|</span>
                         <div>
-                            <img src="public\media\icons\cart.svg" alt="" />
+                            <img src="..\media\icons\cart.svg" alt="" />
                             <Link to="/">0 Items - ($0.00)</Link>
                         </div>
                     </div>
@@ -70,10 +75,10 @@ const Navbar = (props) => {
                             </div>
                         </div>
                         <div className="branding">
-                            <img src="public\media\icons\logo.svg" alt="" />{props.title}
+                            <img src="..\media\icons\logo.svg" alt="" />{props.title}
                         </div>
                         <div className="time flex items-center">
-                            <img src="public\media\icons\clock.svg" alt="" />
+                            <img src="..\media\icons\clock.svg" alt="" />
                             <div>
                                 <h5>Working Hours:</h5>
                                 <h6>Mon - Sat (8.00am - 12.00am)</h6>
